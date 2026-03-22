@@ -4,6 +4,22 @@ All notable changes to the Curiosity Stack plugin are documented here.
 
 ---
 
+## [3.2.3] — 2026-03-22
+
+### Fixed — Scenario library UX
+- **Start decomposition fires directly** — sendPrompt() is now the
+  primary action. Clicking "Start decomposition" sends the topic
+  directly into the chat. No copying, no pasting.
+- **Fallback with clear feedback** — if sendPrompt() is unavailable,
+  the button shows "✓ Prompt copied — paste into chat" for 3 seconds
+  so the user knows it worked.
+- **Removed "Copy prompt" as primary label** — button always says
+  "Start decomposition →". Copy behaviour is fallback only.
+- **Manual copy box** — if clipboard API also fails, a pre-filled
+  textarea appears for manual selection and copy.
+
+---
+
 ## [3.2.2] — 2026-03-22
 
 ### Fixed — Adoption and launch experience
