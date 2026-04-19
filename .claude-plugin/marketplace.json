@@ -1,0 +1,25 @@
+{
+  "name": "curiosity-stack",
+  "owner": {
+    "name": "Ameya Pimpalgaonkar",
+    "email": "ameya@curiositystack.app",
+    "url": "https://curiositystack.app"
+  },
+  "plugins": [
+    {
+      "name": "curiosity-stack",
+      "source": {
+        "source": "github",
+        "repo": "ameya85/curiosity-stack"
+      },
+      "description": "Turn any technology signal, market theme, or global event into a structured 6-layer value chain breakdown. Includes India Proxy Agent with mandatory sourcing from NASSCOM, DPIIT, GeM portal, BSE SME/NSE Emerge, and 12 VC portfolios.",
+      "version": "3.3.0",
+      "author": {
+        "name": "Ameya Pimpalgaonkar",
+        "url": "https://curiositystack.app"
+      },
+      "keywords": ["research", "investing", "india", "value-chain", "decomposition", "proxy-agent"],
+      "license": "MIT"
+    }
+  ]
+}
