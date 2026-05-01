@@ -8,10 +8,7 @@
   "plugins": [
     {
       "name": "curiosity-stack",
-      "source": {
-        "source": "github",
-        "repo": "ameya85/curiosity-stack"
-      },
+      "source": "./",
       "description": "Turn any technology signal, market theme, or global event into a structured 6-layer value chain breakdown. Includes India Proxy Agent with mandatory sourcing from NASSCOM, DPIIT, GeM portal, BSE SME/NSE Emerge, and 12 VC portfolios.",
       "version": "3.3.1",
       "author": {
