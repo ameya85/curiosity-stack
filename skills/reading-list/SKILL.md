@@ -48,7 +48,7 @@ purple or blue as primary backgrounds.
 <div style="margin-top:32px;padding-top:12px;border-top:1px solid #e0ddd6;
   display:flex;justify-content:space-between;align-items:center;
   font-family:'Courier New',monospace;font-size:10px;color:#9a9690">
-  <span>Not SEBI registered · Not investment advice · For research only</span>
+  <span>Curiosity Stack is not a SEBI registered investment advisor · Not investment advice · Makers accept no liability · For research only</span>
   <a href="https://curiositystack.app" target="_blank"
     style="color:#1b5e52;font-weight:700;text-decoration:none">
     ⬡ curiositystack.app

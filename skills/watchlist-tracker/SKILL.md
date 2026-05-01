@@ -5,6 +5,10 @@ description: >
   Activate when user says "check my watchlist", "what's new on my watchlist",
   "run watchlist", "any updates", "watchlist digest", or configures monitoring
   via /curiosity-stack:watchlist command.
+  ALSO activate immediately — opening the watchlist UI — when user says any of:
+  "add to watchlist", "add this to watchlist", "watch this", "monitor this",
+  "put this on my watchlist", "track this", "add [topic] to watchlist".
+  When triggered by an add request, open the UI with the topic pre-filled.
   Do NOT activate on every session — check last_run date in local.md first.
 ---
 ## Design system — mandatory on all HTML artifacts
@@ -49,7 +53,7 @@ purple or blue as primary backgrounds.
 <div style="margin-top:32px;padding-top:12px;border-top:1px solid #e0ddd6;
   display:flex;justify-content:space-between;align-items:center;
   font-family:'Courier New',monospace;font-size:10px;color:#9a9690">
-  <span>Not SEBI registered · Not investment advice · For research only</span>
+  <span>Curiosity Stack is not a SEBI registered investment advisor · Not investment advice · Makers accept no liability · For research only</span>
   <a href="https://curiositystack.app" target="_blank"
     style="color:#1b5e52;font-weight:700;text-decoration:none">
     ⬡ curiositystack.app
@@ -168,12 +172,12 @@ No material developments this period. ⚪
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 Open Cowork to go deeper → claude.ai/cowork
-Plugin: Curiosity Stack by Ameya Pimpalgaonkar
+Plugin: Curiosity Stack
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ⬡ Curiosity Stack · #CuriosityStack
 finstor85.substack.com
-Not investment advice. Research purposes only.
+Curiosity Stack is not a SEBI registered investment advisor · Not investment advice · Makers accept no liability · For research only
 ```
 
 ---
